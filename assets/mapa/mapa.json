@@ -3,6 +3,89 @@
  "infinite":false,
  "layers":[
         {
+         "draworder":"topdown",
+         "id":4,
+         "name":"colisao",
+         "objects":[
+                {
+                 "height":62,
+                 "id":3,
+                 "name":"",
+                 "opacity":1,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":254,
+                 "x":0,
+                 "y":511
+                }, 
+                {
+                 "height":64,
+                 "id":4,
+                 "name":"",
+                 "opacity":1,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":255,
+                 "x":257,
+                 "y":671
+                }, 
+                {
+                 "height":65,
+                 "id":5,
+                 "name":"",
+                 "opacity":1,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":258,
+                 "x":608,
+                 "y":543
+                }, 
+                {
+                 "height":96,
+                 "id":6,
+                 "name":"",
+                 "opacity":1,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":544,
+                 "x":1,
+                 "y":863
+                }, 
+                {
+                 "height":188,
+                 "id":7,
+                 "name":"",
+                 "opacity":1,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":253,
+                 "x":545,
+                 "y":770
+                }, 
+                {
+                 "height":195,
+                 "id":8,
+                 "name":"",
+                 "opacity":1,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":317,
+                 "x":928,
+                 "y":767
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
          "data":[245, 246, 247, 248, 245, 246, 247, 248, 245, 246, 247, 248, 245, 246, 247, 248, 245, 246, 247, 248, 245, 246, 247, 248, 245, 246, 247, 248, 245, 246, 247, 248, 245, 246, 247, 248, 245, 246, 247, 248,
             249, 250, 251, 252, 249, 250, 251, 252, 249, 250, 251, 252, 249, 250, 251, 252, 249, 250, 251, 252, 249, 250, 251, 252, 249, 250, 251, 252, 249, 250, 251, 252, 249, 250, 251, 252, 249, 250, 251, 252,
             253, 254, 255, 256, 253, 254, 255, 256, 253, 254, 255, 256, 253, 254, 255, 256, 253, 254, 255, 256, 253, 254, 255, 256, 253, 254, 255, 256, 253, 254, 255, 256, 253, 254, 255, 256, 253, 254, 255, 256,
@@ -125,8 +208,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":4,
- "nextobjectid":1,
+ "nextlayerid":5,
+ "nextobjectid":9,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.12.2",

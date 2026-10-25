@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="40" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="1">
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="40" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="9">
+ <editorsettings>
+  <export target="mapa.json" format="json"/>
+ </editorsettings>
  <tileset firstgid="1" name="1" tilewidth="32" tileheight="32" tilecount="16" columns="4">
   <image source="../../../tilesets/natureza/png/Tiles/1.png" width="128" height="128"/>
  </tileset>
@@ -54,6 +57,14 @@
  <tileset firstgid="245" name="18" tilewidth="32" tileheight="32" tilecount="16" columns="4">
   <image source="../../../tilesets/natureza/png/Tiles/18.png" width="128" height="128"/>
  </tileset>
+ <objectgroup id="4" name="colisao">
+  <object id="3" x="0" y="511" width="254" height="62"/>
+  <object id="4" x="257" y="671" width="255" height="64"/>
+  <object id="5" x="608" y="543" width="258" height="65"/>
+  <object id="6" x="1" y="863" width="544" height="96"/>
+  <object id="7" x="545" y="770" width="253" height="188"/>
+  <object id="8" x="928" y="767" width="317" height="195"/>
+ </objectgroup>
  <layer id="2" name="ceu" width="40" height="30">
   <data encoding="csv">
 245,246,247,248,245,246,247,248,245,246,247,248,245,246,247,248,245,246,247,248,245,246,247,248,245,246,247,248,245,246,247,248,245,246,247,248,245,246,247,248,
