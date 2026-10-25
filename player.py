@@ -3,8 +3,8 @@ import pygame
 import math
 class Player:
     def __init__(self, largura_tela, altura_tela):
-        self.x = 100
-        self.y = 50  #450
+        self.x = 40
+        self.y = 390 
         self.largura_tela = largura_tela
         self.altura_tela = altura_tela
         self.tempo_animacao = 0
@@ -261,10 +261,12 @@ class Player:
         
 
 
-    def desenhar(self, tela):
-        
+    def desenhar(self, tela, camera_y):
+        # Descontamos a camera do Y para ele subir junto com o mapa!
+        posicao_y_na_tela = self.y - camera_y
+
         if self.direcao == "direita":
-            tela.blit(self.imagem, (self.x, self.y))
+            tela.blit(self.imagem, (self.x, posicao_y_na_tela))
         else:
             imagem = pygame.transform.flip(self.imagem, True, False)
-            tela.blit(imagem, (self.x, self.y))
+            tela.blit(imagem, (self.x, posicao_y_na_tela))

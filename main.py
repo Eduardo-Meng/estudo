@@ -3,12 +3,12 @@ import pygame
 from player import Player
 from mapa import Mapa
 pygame.init()
-'''
 LARGURA = 800
 ALTURA = 600
 '''
 LARGURA = 1280
 ALTURA = 960
+'''
 screen = pygame.display.set_mode((LARGURA, ALTURA))
 clock = pygame.time.Clock()
 player = Player(LARGURA, ALTURA)
@@ -32,9 +32,10 @@ while rodando:
     screen.fill((0, 255, 0))
     teclas = pygame.key.get_pressed()
     player.update(teclas, ataque_pressionado, pulo_precionado, mapa.plataformas)
-
-    player.desenhar(screen)
-    mapa.desenhar(screen)
+    
+    camera_y = 360  # Puxa a visão para o chão!
+    mapa.desenhar(screen, camera_y)
+    player.desenhar(screen, camera_y)
 
     pygame.display.update()
 
