@@ -3,8 +3,12 @@ import pygame
 from player import Player
 from mapa import Mapa
 pygame.init()
+'''
 LARGURA = 800
 ALTURA = 600
+'''
+LARGURA = 1280
+ALTURA = 960
 screen = pygame.display.set_mode((LARGURA, ALTURA))
 clock = pygame.time.Clock()
 player = Player(LARGURA, ALTURA)

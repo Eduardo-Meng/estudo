@@ -1,17 +1,24 @@
-
 import pygame
+import json
+
 class Mapa:
     def __init__(self):
-        self.plataformas = [
-            pygame.Rect(0, 580, 800, 10),  #CHAO
-            pygame.Rect(100, 550, 150, 30),  #PLATAFORMA INFERIOR
-            pygame.Rect(200, 400, 100, 30), # PLATAFORMA DO MEIO
-            pygame.Rect(300, 250, 200, 30)  #PLATAFORMA SUPERIOR
-        ]
+        self.plataformas = []
+
+        # 1. Carrega a imagem linda e completa que o Tiled já desenhou
+        self.imagem_mapa = pygame.image.load('assets/mapa/mapa.png').convert_alpha()
+        self.largura_mapa = self.imagem_mapa.get_width()
+        self.altura_mapa = self.imagem_mapa.get_height()
+
+        # 2. Carrega as caixas de colisão do JSON
+        with open('assets/mapa/mapa.json', 'r', encoding='utf-8') as arquivo:
+            dados = json.load(arquivo)
+
+        for camada in dados['layers']:
+            if camada['name'] == 'colisao':
+                for obj in camada['objects']:
+                    retangulo = pygame.Rect(obj['x'], obj['y'], obj['width'], obj['height'])
+                    self.plataformas.append(retangulo)
 
     def desenhar(self, tela):
-        for plataforma in self.plataformas:
-            if plataforma == self.plataformas[0]:
-                pygame.draw.rect(tela, (0, 0, 255), plataforma)
-            else:
-                pygame.draw.rect(tela, (120, 70, 20), plataforma)       
+        tela.blit(self.imagem_mapa, (0, 0))
