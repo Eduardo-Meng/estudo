@@ -1,73 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="40" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="13">
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="40" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="17">
  <editorsettings>
   <export target="mapa.json" format="json"/>
  </editorsettings>
  <tileset firstgid="1" name="1" tilewidth="32" tileheight="32" tilecount="16" columns="4">
-  <image source="../../../tilesets/natureza/png/Tiles/1.png" width="128" height="128"/>
+  <image source="../../../../tilesets/natureza/png/Tiles/1.png" width="128" height="128"/>
  </tileset>
  <tileset firstgid="17" name="2" tilewidth="32" tileheight="32" tilecount="16" columns="4">
-  <image source="../../../tilesets/natureza/png/Tiles/2.png" width="128" height="128"/>
+  <image source="../../../../tilesets/natureza/png/Tiles/2.png" width="128" height="128"/>
  </tileset>
  <tileset firstgid="33" name="3" tilewidth="32" tileheight="32" tilecount="16" columns="4">
-  <image source="../../../tilesets/natureza/png/Tiles/3.png" width="128" height="128"/>
+  <image source="../../../../tilesets/natureza/png/Tiles/3.png" width="128" height="128"/>
  </tileset>
  <tileset firstgid="49" name="4" tilewidth="32" tileheight="32" tilecount="16" columns="4">
-  <image source="../../../tilesets/natureza/png/Tiles/4.png" width="129" height="129"/>
+  <image source="../../../../tilesets/natureza/png/Tiles/4.png" width="129" height="129"/>
  </tileset>
  <tileset firstgid="65" name="5" tilewidth="32" tileheight="32" tilecount="16" columns="4">
-  <image source="../../../tilesets/natureza/png/Tiles/5.png" width="128" height="128"/>
+  <image source="../../../../tilesets/natureza/png/Tiles/5.png" width="128" height="128"/>
  </tileset>
  <tileset firstgid="81" name="6" tilewidth="32" tileheight="32" tilecount="16" columns="4">
-  <image source="../../../tilesets/natureza/png/Tiles/6.png" width="128" height="128"/>
+  <image source="../../../../tilesets/natureza/png/Tiles/6.png" width="128" height="128"/>
  </tileset>
  <tileset firstgid="97" name="7" tilewidth="32" tileheight="32" tilecount="16" columns="4">
-  <image source="../../../tilesets/natureza/png/Tiles/7.png" width="128" height="128"/>
+  <image source="../../../../tilesets/natureza/png/Tiles/7.png" width="128" height="128"/>
  </tileset>
  <tileset firstgid="113" name="8" tilewidth="32" tileheight="32" tilecount="16" columns="4">
-  <image source="../../../tilesets/natureza/png/Tiles/8.png" width="128" height="128"/>
+  <image source="../../../../tilesets/natureza/png/Tiles/8.png" width="128" height="128"/>
  </tileset>
  <tileset firstgid="129" name="9" tilewidth="32" tileheight="32" tilecount="16" columns="4">
-  <image source="../../../tilesets/natureza/png/Tiles/9.png" width="128" height="128"/>
+  <image source="../../../../tilesets/natureza/png/Tiles/9.png" width="128" height="128"/>
  </tileset>
  <tileset firstgid="145" name="10" tilewidth="32" tileheight="32" tilecount="16" columns="4">
-  <image source="../../../tilesets/natureza/png/Tiles/10.png" width="128" height="128"/>
+  <image source="../../../../tilesets/natureza/png/Tiles/10.png" width="128" height="128"/>
  </tileset>
  <tileset firstgid="161" name="11" tilewidth="32" tileheight="32" tilecount="16" columns="4">
-  <image source="../../../tilesets/natureza/png/Tiles/11.png" width="128" height="128"/>
+  <image source="../../../../tilesets/natureza/png/Tiles/11.png" width="128" height="128"/>
  </tileset>
  <tileset firstgid="177" name="12" tilewidth="32" tileheight="32" tilecount="16" columns="4">
-  <image source="../../../tilesets/natureza/png/Tiles/12.png" width="128" height="128"/>
+  <image source="../../../../tilesets/natureza/png/Tiles/12.png" width="128" height="128"/>
  </tileset>
  <tileset firstgid="193" name="13" tilewidth="32" tileheight="32" tilecount="8" columns="4">
-  <image source="../../../tilesets/natureza/png/Tiles/13.png" width="128" height="93"/>
+  <image source="../../../../tilesets/natureza/png/Tiles/13.png" width="128" height="93"/>
  </tileset>
  <tileset firstgid="201" name="14" tilewidth="32" tileheight="32" tilecount="8" columns="4">
-  <image source="../../../tilesets/natureza/png/Tiles/14.png" width="128" height="93"/>
+  <image source="../../../../tilesets/natureza/png/Tiles/14.png" width="128" height="93"/>
  </tileset>
  <tileset firstgid="209" name="15" tilewidth="32" tileheight="32" tilecount="8" columns="4">
-  <image source="../../../tilesets/natureza/png/Tiles/15.png" width="128" height="93"/>
+  <image source="../../../../tilesets/natureza/png/Tiles/15.png" width="128" height="93"/>
  </tileset>
  <tileset firstgid="217" name="16" tilewidth="32" tileheight="32" tilecount="16" columns="4">
-  <image source="../../../tilesets/natureza/png/Tiles/16.png" width="128" height="128"/>
+  <image source="../../../../tilesets/natureza/png/Tiles/16.png" width="128" height="128"/>
  </tileset>
  <tileset firstgid="233" name="17" tilewidth="32" tileheight="32" tilecount="12" columns="4">
-  <image source="../../../tilesets/natureza/png/Tiles/17.png" width="128" height="99"/>
+  <image source="../../../../tilesets/natureza/png/Tiles/17.png" width="128" height="99"/>
  </tileset>
  <tileset firstgid="245" name="18" tilewidth="32" tileheight="32" tilecount="16" columns="4">
-  <image source="../../../tilesets/natureza/png/Tiles/18.png" width="128" height="128"/>
+  <image source="../../../../tilesets/natureza/png/Tiles/18.png" width="128" height="128"/>
  </tileset>
  <objectgroup id="4" name="colisao">
   <object id="3" x="0" y="511" width="254" height="62"/>
-  <object id="4" x="1025" y="513.667" width="255" height="64"/>
-  <object id="5" x="446.667" y="545.667" width="258" height="65"/>
+  <object id="5" x="224" y="607" width="132.667" height="65"/>
   <object id="6" x="1" y="863" width="544" height="96"/>
   <object id="7" x="545" y="770" width="253" height="188"/>
-  <object id="8" x="928" y="767" width="317" height="195"/>
-  <object id="9" x="707" y="347.5" width="258" height="65"/>
-  <object id="10" x="995" y="123.5" width="258" height="65"/>
-  <object id="11" x="419" y="192.833" width="258" height="65"/>
+  <object id="8" x="928" y="767" width="350.333" height="195"/>
+  <object id="9" x="576.333" y="319.5" width="258" height="65"/>
+  <object id="10" x="801.667" y="95.5" width="258" height="65"/>
+  <object id="11" x="356.333" y="192.833" width="258" height="65"/>
   <object id="12" x="4.33333" y="187.5" width="258" height="65"/>
+  <object id="13" x="1021.67" y="288.833" width="258" height="65"/>
+  <object id="14" x="736.333" y="606.167" width="258" height="65"/>
+  <object id="15" x="384.333" y="414.167" width="132.667" height="65"/>
+  <object id="16" x="1153.67" y="506.167" width="123.334" height="65"/>
  </objectgroup>
  <layer id="2" name="ceu" width="40" height="30">
   <data encoding="csv">
@@ -142,24 +145,24 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,193,194,195,196,209,210,211,212,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,197,198,199,200,213,214,215,216,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,193,194,195,196,209,210,211,212,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,197,198,199,200,213,214,215,216,0,
-193,194,195,196,209,210,211,212,0,0,0,0,0,193,194,195,196,209,210,211,212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-197,198,199,200,213,214,215,216,0,0,0,0,0,197,198,199,200,213,214,215,216,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+193,194,195,196,209,210,211,212,0,0,0,193,194,195,196,209,210,211,212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+197,198,199,200,213,214,215,216,0,0,0,197,198,199,200,213,214,215,216,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,193,194,195,196,209,210,211,212,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,193,194,195,196,209,210,211,212,0,0,0,0,0,0,197,198,199,200,213,214,215,216,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,197,198,199,200,213,214,215,216,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,193,194,211,212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,197,198,215,216,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,193,194,195,196,209,210,211,212,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,197,198,199,200,213,214,215,216,0,0,0,0,0,0,0,0,0,0,
+193,194,195,196,209,210,211,212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,193,194,211,212,
+197,198,199,200,213,214,215,216,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,197,198,215,216,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-193,194,195,196,209,210,211,212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,193,194,195,196,209,210,211,212,
-197,198,199,200,213,214,215,216,0,0,0,0,0,0,193,194,195,196,209,210,211,212,0,0,0,0,0,0,0,0,0,0,197,198,199,200,213,214,215,216,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,197,198,199,200,213,214,215,216,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,193,194,211,212,0,0,0,0,0,0,0,0,0,0,0,0,193,194,195,196,209,210,211,212,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,197,198,215,216,0,0,0,0,0,0,0,0,0,0,0,0,197,198,199,200,213,214,215,216,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

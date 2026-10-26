@@ -25,6 +25,7 @@ class Player:
         self.direcao = 'direita'
         self.estado = 'idle'
         self.estado_anterior = 'idle'
+        
 
         self.frames_por_estado = {
             'walk': {
@@ -79,6 +80,8 @@ class Player:
         self.largura = self.imagem.get_width()
         self.altura = self.imagem.get_height()
 
+    
+
     def carregar_imagens(self, nome_acao, quantidade):
         frames = []
         for i in range(1, quantidade + 1):
@@ -116,7 +119,6 @@ class Player:
     def mover(self, teclas, dados_estado, plataformas):
         movimento_x = 0
         movimento_y = 0
-
         if teclas[pygame.K_RIGHT]:
             movimento_x = dados_estado['velocidade']
             self.direcao = 'direita'
@@ -160,14 +162,18 @@ class Player:
                         and self.x >= plataforma.right
                         and novo_x < plataforma.right
                     ):
-                        novo_x = plataforma.right    
+                        novo_x = plataforma.right  
         
-        
-        if 0 <= novo_x <= self.largura_tela - self.largura:
+        #if novo_x >= 0: self.x = novo_x
+        if 0 <= novo_x <= 1280 - self.largura:
             self.x = novo_x
+        
+        #if 0 <= novo_x <= self.largura_tela - self.largura:
+        #    self.x = novo_x
 
-        if 0 <= novo_y <= self.altura_tela - self.altura:
-            self.y = novo_y   
+        #if 0 <= novo_y <= self.altura_tela - self.altura:
+        #    self.y = novo_y   
+        
 
     def animar(self, dados_estado):
         
@@ -238,6 +244,7 @@ class Player:
     def update(self, teclas, ataque_pressionado, pulo_precionado, plataformas):        
 
         self.estado_anterior = self.estado
+        
 
         if pulo_precionado:
             self.pular()
@@ -261,12 +268,13 @@ class Player:
         
 
 
-    def desenhar(self, tela, camera_y):
+    def desenhar(self, tela, camera_x, camera_y):
         # Descontamos a camera do Y para ele subir junto com o mapa!
         posicao_y_na_tela = self.y - camera_y
+        posição_x_na_tela = self.x - camera_x
 
         if self.direcao == "direita":
-            tela.blit(self.imagem, (self.x, posicao_y_na_tela))
+            tela.blit(self.imagem, (posição_x_na_tela, posicao_y_na_tela))
         else:
             imagem = pygame.transform.flip(self.imagem, True, False)
-            tela.blit(imagem, (self.x, posicao_y_na_tela))
+            tela.blit(imagem, (posição_x_na_tela, posicao_y_na_tela))
